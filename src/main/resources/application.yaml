@@ -1,8 +1,9 @@
 spring:
   application:
     name: ms_voo
+
   datasource:
-    url: jdbc:postgresql://localhost:5432/voo
+    url: jdbc:postgresql://postgres:5432/voo
     username: postgres
     password: root
     driver-class-name: org.postgresql.Driver
@@ -11,6 +12,7 @@ spring:
     hibernate:
       ddl-auto: none
     show-sql: true
+
     properties:
       hibernate:
         format_sql: true
